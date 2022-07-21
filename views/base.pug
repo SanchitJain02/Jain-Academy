@@ -1,0 +1,18 @@
+doctype html 
+html 
+    head 
+        title Jain Pathshala 
+        block scripts 
+        block style 
+    body
+        nav#navbar 
+            ul
+                #logo 
+                    img(src="/static/img/download.png")
+                li #[a(href="/") Home]  
+                li #[a(href="/contact") Contact Us] 
+        block content 
+        footer#footer 
+            | Copyright @ 2022 JainPathshala.com | All rights reserved
+        script 
+            include ../static/index.js    

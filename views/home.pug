@@ -1,0 +1,27 @@
+extends base.pug
+
+block scripts
+    script(src="/static/index.js")
+
+block style 
+    style 
+        include ../static/style.css    
+
+block content 
+    section#introsection
+        div Welcome to Jain Pathshala 
+        div.small Where Education is a Passison not a Business
+    section#missionsection
+        h2 Our Features
+        .card
+            h3 Proper Guidance
+            .card-content 
+                h5 Proper guidance will be given to all students for there future goals. Regular motivation lectures will be arranged to keep the students motivated and full of energy which help in their growth.
+        .card
+            h3 Online Testing
+            .card-content 
+                h5 Regular Tests will be conducted to check the progress of the students. A report card will be given to students that will tell on which topic they have to focus more and will be sent to parents.
+        .card
+            h3 Regular Doubt Sessions
+            .card-content 
+                h5  Regular doubt sessions will be arranged to clear all the doubts well in time. Students can also asks doubts on phones or can whatsapp the question, answers will be given as soon as possible.
